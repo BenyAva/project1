@@ -1,13 +1,3 @@
-// $(()=> {
-//     $('.home').on('click',() => {
-//         $(this).toggleClass('.reveal')
-//     })
-// })
-
-
-// $('div').on('click', function() {
-//     $(this).toggleClass('show-description');
-// })
 
 $(() => {
 
@@ -113,6 +103,12 @@ $(() => {
 
     $('#dark').on('click',darkMode)
 
+    const lightMode = () => {
+        $('body').css('background','rgb(185, 195, 189)')
+        $('h1').css('color','rgb(46, 69, 90)')
+        $('p').css('color','rgb(46, 69, 90)')
+    }
 
+    $('#light').on('click',lightMode)
 
 })
