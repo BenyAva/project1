@@ -17,7 +17,7 @@ $(() => {
    $('#projects').hide()
 
     const showText = () => {
-        $('#home').toggle(500)
+        $('#home').show(500)
         $('#bio').hide()
         $('#resume').hide()
         $('#projects').hide()
@@ -27,7 +27,7 @@ $(() => {
     //////////////////
 
     const showText2 = () => {
-        $('#bio').toggle(500)
+        $('#bio').show(500)
         $('#home').hide()
         $('#resume').hide()
         $('#projects').hide()
@@ -38,7 +38,7 @@ $(() => {
     /////////////////////
 
     const showText3 = () => {
-        $('#resume').toggle(500)
+        $('#resume').show(500)
         $('#home').hide()
         $('#bio').hide()
         $('#projects').hide()
@@ -49,7 +49,7 @@ $(() => {
     /////////////////////////
 
     const showText4 = () => {
-        $('#projects').toggle(500)
+        $('#projects').show(500)
         $('#home').hide()
         $('#bio').hide()
         $('#resume').hide()
@@ -101,3 +101,18 @@ $(() => {
 
 
 });
+
+
+$(() => {
+
+    const darkMode = () => { 
+        $('body').css('background','black')
+        $('h1').css('color','white')
+        $('p').css('color','white')
+    }
+
+    $('#dark').on('click',darkMode)
+
+
+
+})

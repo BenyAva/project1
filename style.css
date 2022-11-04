@@ -31,8 +31,8 @@
 
 .carousel-images {
     display: flex;
-	max-width: 50%;
-    max-height: 50%;
+	max-width: 400px;
+    max-height: 200px;
 	/* background: #346d58; */
 	padding: 10px;
 	border-radius: 10px;
@@ -163,8 +163,8 @@ p {
     color: #346d58;
 }
 
- a {
-    color: white;
+ a  {
+    color: rgb(37, 105, 81);
     text-decoration: none;
     display: block;
     padding: 15px;
@@ -172,10 +172,12 @@ p {
     transition: all ease-in-out 0.5s;
 } 
 
-/* .links:hover{
-    border-color: black;
-    color: rgb(27, 94, 85);
-}  */
+a:hover{
+    border-color: rgb(131, 119, 119);
+    color: rgb(4, 48, 35);
+    /* border-bottom: 1px solid transparent;
+    transition: all ease-in-out 0.5s; */
+} 
 
 #h:hover{
 	color: rgb(63, 111, 150);
@@ -212,3 +214,4 @@ p {
     border-bottom: 1px solid transparent;
     transition: all ease-in-out 0.5s;
 }
+
